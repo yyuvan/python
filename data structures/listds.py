@@ -34,3 +34,18 @@ fruits.insert(3, "Orange")
 mynum=[123,32,59,38,65,928,9827]
 mynum.sort()
 print(mynum)
+
+
+l=[34,43,33,2,["bannas","apples", "pears", "grapes",[32.0,21.1,17.8,12.5,15.7]]]
+# print(len(l))
+# print(l[0])
+# print(l[1])
+# print(l[2])
+# print(l[3])
+print(l[4][4][0])
+
+v=l[4]
+print(v[0])
+
+p=v[4]
+print(p[0])
