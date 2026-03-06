@@ -1,0 +1,5 @@
+first=input("Enter the name of the first file: ")
+second=input("Enter the name of the second file: ")
+
+f1=open(first, "a+")
+f2=open(second, "r")
