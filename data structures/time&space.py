@@ -1,4 +1,5 @@
 # #factor problem
+'''
 import time
 
 x=int(input("Enter the number: "))
@@ -26,3 +27,4 @@ for i in range(1, int(x**(0.5))+1):
 end =time.time()
 print(count)
 print(end-start)
+'''
